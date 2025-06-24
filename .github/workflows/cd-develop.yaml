@@ -4,7 +4,7 @@ on:
     branches:
       - develop
 jobs:   
-  #job to clone repository and build
+  #job to clone repository, build and upload
   upload-artifact-develop: #every job runs on separate runners they might be running in parallel
     runs-on: ubunutu-latest
     steps:
